@@ -1391,7 +1391,7 @@
 
     /** 추천 링크 URL 반환 */
     function buildShareUrl(refCode) {
-      return `${BASE_URL}/?ref=${encodeURIComponent(refCode)}`;
+      return BASE_URL + '/?ref=' + refCode;
     }
 
     /** 입력값 변경 시 미리보기 & 버튼 활성화 */
